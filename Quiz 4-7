@@ -1,0 +1,12 @@
+/*
+ * Programming Quiz: Factorials (4-7)
+ */
+// Initialize total number called solution as 1.
+// Increment value of solution with each loop 
+
+// your code goes here
+var solution = 1;
+for (var num = 12; num >= 1; num--) {
+    solution *= num;
+}
+console.log(solution);
